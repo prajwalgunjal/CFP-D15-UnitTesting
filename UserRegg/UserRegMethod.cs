@@ -37,17 +37,17 @@ namespace UserRegg
             }
         }
 
-        public void Email(string email)
+        public bool Email(string email)
         {
             Regex CheckEmail = new Regex("^\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b");
 
             if (CheckEmail.IsMatch(email))
             {
-                Console.WriteLine("Valid Email");
+                return true;
             }
             else
             {
-                Console.WriteLine("not a valid Email");
+                return false;
             }
         }
 

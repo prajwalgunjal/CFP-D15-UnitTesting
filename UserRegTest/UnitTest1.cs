@@ -34,6 +34,14 @@ namespace UserRegTest
         }
 
 
+        [TestMethod]
+        [DataRow("prajwal23@gmail.com",true)]
+        [DataRow("prajwal23@.com",false)]
+        public void CHeckEmail_ShouldReturnTrue_IfValid(string email , bool expected) { 
+            bool result = method.Email(email);
+            Assert.AreEqual(expected,result);
+        }
+
 
     }
 }
