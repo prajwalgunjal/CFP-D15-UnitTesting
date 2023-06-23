@@ -24,16 +24,16 @@ namespace UserRegg
         }
 
 
-        public void LastName(string name)
+        public bool LastName(string name)
         {
             Regex CheckLname = new Regex("^[A-Z][a-z]{2,}");
             if (CheckLname.IsMatch(name))
             {
-                Console.WriteLine("Valid Lastname");
+                return true;
             }
             else
             {
-                Console.WriteLine("not a valid LirstName");
+                return false;
             }
         }
 
