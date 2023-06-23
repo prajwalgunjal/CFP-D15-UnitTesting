@@ -51,18 +51,18 @@ namespace UserRegg
             }
         }
 
-        public void Phone(string phno)
+        public bool Phone(string phno)
         {
             //Regex Phone = new Regex("^\\+\\d{1,3}\\s?(\\(\\d{1,3}\\))?\\s?\\d{1,4}\\s?\\d{1,4}\\s?\\d{1,9}$");
             Regex Phone = new Regex("^(\\+?\\d{1,3})\\s\\d{10}$");
 
             if (Phone.IsMatch(phno))
             {
-                Console.WriteLine("Valid Phone Number");
+                return true;
             }
             else
             {
-                Console.WriteLine("not a valid Phone Number");
+                return false;
             }
         }
 

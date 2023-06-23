@@ -42,6 +42,17 @@ namespace UserRegTest
             Assert.AreEqual(expected,result);
         }
 
+        [TestMethod]
+        [DataRow("+91 9881640062",true)]
+        [DataRow("9881640062",false)]
+
+        public void CHeckPhoneNumber_ShouldReturnTrue_IfValid(string number, bool expected)
+        {
+            bool result = method.Phone(number);   
+            Assert.AreEqual(expected,result);
+        }
+
+
 
     }
 }
