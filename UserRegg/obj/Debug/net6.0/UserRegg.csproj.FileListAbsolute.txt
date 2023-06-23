@@ -1,0 +1,15 @@
+C:\Users\prajw\source\repos\UserRegg\UserRegg\bin\Debug\net6.0\UserRegg.exe
+C:\Users\prajw\source\repos\UserRegg\UserRegg\bin\Debug\net6.0\UserRegg.deps.json
+C:\Users\prajw\source\repos\UserRegg\UserRegg\bin\Debug\net6.0\UserRegg.runtimeconfig.json
+C:\Users\prajw\source\repos\UserRegg\UserRegg\bin\Debug\net6.0\UserRegg.dll
+C:\Users\prajw\source\repos\UserRegg\UserRegg\bin\Debug\net6.0\UserRegg.pdb
+C:\Users\prajw\source\repos\UserRegg\UserRegg\obj\Debug\net6.0\UserRegg.csproj.AssemblyReference.cache
+C:\Users\prajw\source\repos\UserRegg\UserRegg\obj\Debug\net6.0\UserRegg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prajw\source\repos\UserRegg\UserRegg\obj\Debug\net6.0\UserRegg.AssemblyInfoInputs.cache
+C:\Users\prajw\source\repos\UserRegg\UserRegg\obj\Debug\net6.0\UserRegg.AssemblyInfo.cs
+C:\Users\prajw\source\repos\UserRegg\UserRegg\obj\Debug\net6.0\UserRegg.csproj.CoreCompileInputs.cache
+C:\Users\prajw\source\repos\UserRegg\UserRegg\obj\Debug\net6.0\UserRegg.dll
+C:\Users\prajw\source\repos\UserRegg\UserRegg\obj\Debug\net6.0\refint\UserRegg.dll
+C:\Users\prajw\source\repos\UserRegg\UserRegg\obj\Debug\net6.0\UserRegg.pdb
+C:\Users\prajw\source\repos\UserRegg\UserRegg\obj\Debug\net6.0\UserRegg.genruntimeconfig.cache
+C:\Users\prajw\source\repos\UserRegg\UserRegg\obj\Debug\net6.0\ref\UserRegg.dll
