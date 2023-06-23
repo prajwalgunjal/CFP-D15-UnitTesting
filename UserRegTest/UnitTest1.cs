@@ -51,6 +51,17 @@ namespace UserRegTest
             bool result = method.Phone(number);   
             Assert.AreEqual(expected,result);
         }
+        
+        
+        [TestMethod]
+        [DataRow("Prajwalll",true)]
+        [DataRow("123",false)]
+
+        public void CHeckPassword_ShouldReturnTrue_IfValid(string password, bool expected)
+        {
+            bool result = method.Password(password);   
+            Assert.AreEqual(expected,result);
+        }
 
 
 

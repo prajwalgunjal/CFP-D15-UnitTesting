@@ -66,18 +66,16 @@ namespace UserRegg
             }
         }
 
-        public void Password(string password)
+        public bool Password(string password)
         {
             Regex CheckPassword = new Regex("^[A-Za-z]{8,}$");
 
             if (CheckPassword.IsMatch(password))
             {
-                Console.WriteLine("Valid Password");
-            }
+                return true;            }
             else
             {
-                Console.WriteLine("not a valid Password");
-            }
+                return false;            }
         }
     }
 }
